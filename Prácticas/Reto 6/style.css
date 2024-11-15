@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-image: url(FONDO\ HTML.jpg);
+    padding: 70px;
+}
+
+main{
+    background-color: brown;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 10px;
+    border: yellow 5px solid;
+    color: white;
+    font-family: "Doto";
+}
+
+h2{
+    border: palevioletred 3px solid;
+    padding: 5px;
+    color: white;
+}
+
+ul{
+    border: green 5px solid;
+}
+ul li{
+    padding: 10px;
+    color: blue;
+}
+
+#datos{
+    border: green 5px solid;
+    color: blue;
+}
+#datos li{
+    padding: 10px;
+}
+
+#descripcion{
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 40px;
+}
+#descripcion h2{
+    color: pink;
+    border: none;
+}
+
+#contenido{
+    color: blue;
+}
+
+.laquetuquieras{
+    color: white;
+}
