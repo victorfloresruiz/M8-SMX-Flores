@@ -43,6 +43,8 @@ ul li{
     background-color: darkslateblue;
     text-align: center;
     padding: 40px;
+    width: 50%;
+    margin: auto;
 }
 #descripcion h2{
     color: pink;
