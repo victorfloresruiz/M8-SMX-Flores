@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.menu-center {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f5a623;
+    padding-right: 40px;
+}
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links li {
+    display: inline;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+    color: #f5a623;
+}
+
+
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 100px 20px;
+    background-image: url(https://img.pikbest.com/wp/202344/noir-elegant-textured-background-for-a-modern-twist_9916704.jpg!w700wp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+
+.hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+.hero-content h1 span {
+    color: #f5a623;
+}
+
+
+.hero-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f5a623;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #e5941d;
+}
+
+
+
+
+.hero-info {
+    background-color: #f5a623;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 35%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    margin-left: 20px;
+}
+
+
+.hero-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+.hero-info ul {
+    list-style: none;
+}
+
+
+.hero-info ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .hero-content, .hero-info {
+        max-width: 100%;
+    }
+
+
+    .hero-info {
+        margin: 20px 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .hero-info h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .hero-info ul li {
+        font-size: 1rem;
+    }
+}

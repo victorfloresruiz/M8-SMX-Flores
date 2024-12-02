@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+.seccion1 {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(6, 107, 107);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.div2 {
+    max-width: 50%;
+}
+
+img {
+    border-radius: 5px;
+    margin-left: 1100px;
+}
+
+.seccion2 {
+    text-align: center;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+.seccion2 h2 {
+    font-size: 20px;
+    margin: 0;
+}

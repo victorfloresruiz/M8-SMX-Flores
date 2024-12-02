@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    padding: 20;
+    background-color: aqua;
+}
