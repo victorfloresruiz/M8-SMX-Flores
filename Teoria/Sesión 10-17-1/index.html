@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="formularios.html" style="width: 25%; display: flex; flex-direction: column; text-align: center; margin: auto;">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="nombre" required>
+
+            <label for="surname">Apellido</label>
+            <input type="text" id="surname" name="cognoms">
+
+            <label for="email">Correu electrònic</label>
+            <input type="email">
+
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <br>
+            <p>Intereses:</p>
+            <input type="checkbox" id="deportes" name="Intereses" value="deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="musica" name="Intereses" value="musica">
+            <label for="musica">Música</label>
+
+            <label for="seleccion-genero">Género</label>
+            <select name="Género" id="seleccion-genero">
+
+            <!--//selección desplegable-->
+            <option value="">Selecciona un género</option>
+            <option value="rap">Rap</option>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="reaggeton">Reaggeton</option>
+            <option value="techno">Techno</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
