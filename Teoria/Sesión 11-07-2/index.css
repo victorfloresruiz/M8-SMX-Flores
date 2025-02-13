@@ -1,0 +1,13 @@
+.tablas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+th{
+    background-color: bisque;
+}
+
+td,th{
+    padding: 5px;
+}
