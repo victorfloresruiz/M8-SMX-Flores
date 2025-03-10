@@ -44,7 +44,7 @@ body {
     padding: 20px; 
 }
 .btn {
-    background-color: red;
+    background-color: #e06a6a;
     color: white;
     padding: 12px 24px; 
     text-decoration: none;
@@ -68,13 +68,16 @@ th, td {
 th {
     background-color: #e06a6a;
 }
+td {
+    background-color: #283549;
+}
 .juegotabla {
     color: #e06a6a;
 }
 .form-container {
     width: 55%;
     margin: 30px auto; 
-    background: #111;
+    background: #0c1524;
     padding: 30px; 
     border-radius: 5px;
 }
@@ -84,6 +87,9 @@ th {
     margin: 15px 0; 
     border: none;
     border-radius: 5px;
+}
+.registro {
+    background-color: #283549;
 }
 .games-container {
     display: flex;
@@ -114,4 +120,13 @@ button {
 
 h1, h2 {
     color: #e06a6a;
+}
+.imagenes-sponsor {
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors {
+    margin-right: 10px;
+    width: 300px;
+    height: auto;
 }
