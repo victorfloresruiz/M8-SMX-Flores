@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c1524;
+    color: white;
+    text-align: center;
+    line-height: 1.8; /* Aumenta el espacio entre líneas */
+}
+.header {
+    background-color: #111;
+    padding: 20px 30px; /* Aumenta el espaciado */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: red;
+    font-weight: bold;
+    font-size: 20px; /* Un poco más grande */
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; /* Más espacio entre los enlaces */
+    font-size: 16px;
+}
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 400px; /* Más altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 30px 0; /* Aumenta el espacio superior e inferior */
+}
+.hero-content {
+    position: relative;
+    max-width: 700px; /* Más ancho para el contenido */
+    padding: 20px; /* Espaciado interno */
+}
+.btn {
+    background-color: red;
+    color: white;
+    padding: 12px 24px; /* Botones más grandes */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px; /* Espaciado superior */
+}
+.schedule, .register, .games {
+    padding: 60px 30px; /* Más espacio entre secciones */
+}
+table {
+    width: 85%; /* Un poco más ancho */
+    margin: 20px auto; /* Más espacio arriba y abajo */
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    padding: 12px; /* Más espacio dentro de las celdas */
+}
+.form-container {
+    width: 55%;
+    margin: 30px auto; /* Más separación arriba y abajo */
+    background: #111;
+    padding: 30px; /* Más espacio interno */
+    border-radius: 5px;
+}
+.form-container input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0; /* Más separación entre campos */
+    border: none;
+    border-radius: 5px;
+}
+.games-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Más separación entre tarjetas */
+}
+.game-card {
+    background: #1a1a2e;
+    padding: 25px; /* Más espacio interno */
+    border-radius: 5px;
+    width: 270px; /* Un poco más grande */
+    margin-top: 20px; /* Más separación arriba */
+}
